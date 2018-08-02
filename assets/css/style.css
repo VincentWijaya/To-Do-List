@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background-image: url(../img/grey-bg.jpg);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  padding-top: 50px;
+  width: 100%;
+  font-family: Lucida, monospace;
+  text-align: center;
+}
+
+.konten {
+  color: #FFF;
+  width: 100%;
+  font-family: Georgia;
+  text-align: center;
+  margin-top: 30px;
+}
+
+ol {
+  color: #FFF;
+  line-height: 1.3em;
+  text-align: left;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 290px;
+  padding-left: 550;
+}
+
+
+/* Arrow */
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

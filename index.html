@@ -1,0 +1,25 @@
+<html>
+
+<head>
+  <title>To Do List - Final Project</title>
+  <link rel="Stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <h1>Todo List</h1>
+
+  <form class="konten" id="form">
+    <input id="input">
+    <button type="button" onclick="addList()" class="button">Add</button>
+
+    <button type="button" onclick="removeListBawah()" class="button"> <i class="arrow down"></i> </button>
+    <button type="button" onclick="removeListAtas()" class="button"> <i class="arrow up"></i> </button>
+    <button type="button" onclick="reload()" class="button"> Reset </button>
+
+    <ol class="list" id="toDoList"></ol>
+  </form>
+
+  <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
