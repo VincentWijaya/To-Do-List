@@ -26,5 +26,7 @@ function removeListAtas() {
 }
 
 function reload() {
-  location.reload()
+  var item = document.getElementById("toDoList")
+
+  item.innerHTML = ""
 }
